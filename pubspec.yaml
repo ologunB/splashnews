@@ -1,0 +1,55 @@
+name: foxfund_alpha
+description: A new Flutter application.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  hive: ^1.5.0-pre
+  hive_flutter: ^0.3.1
+  provider: ^4.0.5
+  dio: ^3.0.10
+  animated_bottom_navigation_bar:
+  adaptive_dialog: ^0.9.0+1
+  provider_architecture: ^1.1.1+1
+  get_it: ^5.0.1
+  another_flushbar: ^1.10.11
+  cached_network_image: ^2.4.1
+  flutter_svg:
+  eva_icons_flutter:
+  google_fonts:
+  animated_text_kit:
+  smooth_star_rating:
+  url_launcher: ^5.5.0
+  network_aware:
+    git:
+      url: https://github.com/asapJ/network_aware.git
+      ref: master
+  logger:
+  loading_overlay: ^0.2.1
+  shimmer: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+
+flutter_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path_android: "images/splash-logo.png"
+  image_path_ios: "images/splash-logo.png"
+  adaptive_icon_background: "#ffffff"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/
